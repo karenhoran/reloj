@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: #050385;
+    background: radial-gradient(ellipse at center, #110050 15%, #3b2b97 70%);
+    background-size: 100%;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.reloj{
+    font-family: 'Share Tech Mono', monospace;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 0 0 20px rgb(163, 224, 235), 0 0 20px rgba(151, 217, 248, 0) ;
+}
+.tiempo{
+    letter-spacing: 0.05em;
+    font-size: 60px;
+    padding: 5px 0;
+}
+.fecha{
+    letter-spacing: 0.1em;
+    font-size: 20px;
+}
